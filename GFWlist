@@ -1,0 +1,11 @@
+payload:
+  - '*.compose-spec.io'
+  - '*.dl.google.com'
+  - '*.docker.com'
+  - '*.docker.io'
+  - '*.ify.ac'
+  - '*.modsfire.com'
+  - '*.nic.eu.org'
+  - '*.pexels.com'
+  - '*.qichiyu.com'
+  - 'qichiyu.com'
