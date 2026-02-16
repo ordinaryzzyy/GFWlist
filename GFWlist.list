@@ -31,3 +31,14 @@ DOMAIN-SUFFIX,hpeprint.com
 #DOMAIN-SUFFIX,apps.mzstatic.com
 #DOMAIN-SUFFIX,amp-api.podcasts.apple.com
 #DOMAIN-SUFFIX,bookkeeper.itunes.apple.com
+#iOS podcast
+DOMAIN-SUFFIX,itunes.apple.com
+#播客元数据与下载
+DOMAIN-SUFFIX,podcasts.apple.com
+#播客 API
+#DOMAIN,amp-api.podcasts.apple.com
+#播客核心接口
+#DOMAIN,bookkeeper.itunes.apple.com
+#播放进度同步
+DOMAIN-SUFFIX,mzstatic.com
+#封面图片与部分音频资源
