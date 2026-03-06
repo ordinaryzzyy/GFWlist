@@ -20,12 +20,16 @@ DOMAIN-SUFFIX,hp.com
 DOMAIN-SUFFIX,hpeprint.com
 
 #ios chatgpt
+#Apple智能扩展
 DOMAIN-SUFFIX,apple-relay.apple.com
+#私有云计算
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
-#DOMAIN-SUFFIX,gateway.icloud.com
-#DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
+#Siri和听写请求
+#DOMAIN-SUFFIX,guzzoni.apple.com
+#搜索服务，包括Siri、聚焦、查询、Safari浏览器、新闻、信息和音乐
+#DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 #iOS podcast
