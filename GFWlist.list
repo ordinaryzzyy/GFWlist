@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,ainidj.com
 DOMAIN-SUFFIX,hp.com
 DOMAIN-SUFFIX,hpeprint.com
 
-#ios chatgpt
+#iOS chatgpt
 #Apple智能扩展
 DOMAIN-SUFFIX,apple-relay.apple.com
 #私有云计算
@@ -27,19 +27,20 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
 #Siri和听写请求
-#DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
 #搜索服务，包括Siri、聚焦、查询、Safari浏览器、新闻、信息和音乐
 #DOMAIN-SUFFIX,smoot.apple.com
+
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 #iOS podcast
+#商店内容，如App、图书和音乐
 DOMAIN-SUFFIX,itunes.apple.com
-#播客元数据与下载
-DOMAIN-SUFFIX,podcasts.apple.com
-#播客 API
-#DOMAIN,amp-api.podcasts.apple.com
-#播客核心接口
-#DOMAIN,bookkeeper.itunes.apple.com
-#播放进度同步
+#商店内容，如App、图书和音乐，以及来自网站和替代市场的App
 DOMAIN-SUFFIX,mzstatic.com
-#封面图片与部分音频资源
+#播客 API
+DOMAIN-SUFFIX,podcasts.apple.com
+#播客核心接口
+#DOMAIN,amp-api.podcasts.apple.com
+#播放进度同步
+#DOMAIN,bookkeeper.itunes.apple.com
