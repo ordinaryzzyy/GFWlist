@@ -26,7 +26,7 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com
 #DOMAIN-SUFFIX,gateway.icloud.com
 #DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
-#DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
 #iOS podcast
 DOMAIN-SUFFIX,itunes.apple.com
