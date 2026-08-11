@@ -38,11 +38,11 @@ DOMAIN-SUFFIX,hpeprint.com
 
 #iOS podcast
 #商店内容，如App、图书和音乐
-DOMAIN-SUFFIX,itunes.apple.com
+#DOMAIN-SUFFIX,itunes.apple.com
 #商店内容，如App、图书和音乐，以及来自网站和替代市场的App
-DOMAIN-SUFFIX,mzstatic.com
+#DOMAIN-SUFFIX,mzstatic.com
 #播客 API
-DOMAIN-SUFFIX,podcasts.apple.com
+#DOMAIN-SUFFIX,podcasts.apple.com
 #播客核心接口
 #DOMAIN,amp-api.podcasts.apple.com
 #播放进度同步
