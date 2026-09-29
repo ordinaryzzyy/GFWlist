@@ -19,6 +19,11 @@ DOMAIN-SUFFIX,ainidj.com
 DOMAIN-SUFFIX,hp.com
 DOMAIN-SUFFIX,hpeprint.com
 
+#meta muse
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,fbcdn.net
+
 #iOS chatgpt
 #Apple智能扩展
 #DOMAIN-SUFFIX, gateway.icloud.com
