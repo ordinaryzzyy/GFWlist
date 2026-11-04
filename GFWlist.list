@@ -16,8 +16,13 @@ DOMAIN-SUFFIX,19940731.xyz
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,xn--ug8h.eu.org
 DOMAIN-SUFFIX,ainidj.com
+
+#HP printer
 DOMAIN-SUFFIX,hp.com
 DOMAIN-SUFFIX,hpeprint.com
+
+#picture
+DOMAIN-SUFFIX,qy0.ru
 
 #meta muse
 DOMAIN-SUFFIX,meta.ai
