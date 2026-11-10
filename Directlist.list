@@ -1,24 +1,32 @@
-# NAME: directlist
-# AUTHOR: forpersonal
-# UPDATED:2025-03-24
-# DOMAIN: 0
-# DOMAIN-SUFFIX: 7
-# DOMAIN-KEYWORD: 0
-# IP-ASN: 0
-# TOTAL: 7
-# DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-# IP-ASN,132203,no-resolve
+#UNKNOWN
 DOMAIN-SUFFIX,kaogujia.com
-DOMAIN-SUFFIX,unknowntec.com
 DOMAIN-SUFFIX,mobcb.com
 DOMAIN-SUFFIX,hn.cqfanzai.com
 DOMAIN-SUFFIX,eydpic.com
-DOMAIN-SUFFIX,switch.cup.com.cn
 DOMAIN-SUFFIX,chenjiariji.top
-DOMAIN-SUFFIX,12306.cn
+
+#SIM plus
+DOMAIN-SUFFIX,unknowntec.com
+
+#SGCC
 DOMAIN-SUFFIX,sgcc.com
 DOMAIN-SUFFIX,sgcc.com.cn
+DOMAIN-SUFFIX,esgcc.com.cn,DIRECT
 
-#download
+#GOV
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,122.gov.cn,DIRECT
+
+#MEDIA
+DOMAIN-SUFFIX,gtimg.cn,DIRECT
+
+#BANK
+DOMAIN-SUFFIX,cmpassport.com,DIRECT
+DOMAIN-SUFFIX,switch.cup.com.cn
+
+#CAR
+DOMAIN-SUFFIX,firefly.com.cn,DIRECT
+
+#DOWNLOAD
 DOMAIN-SUFFIX,wn01.download
 DOMAIN-SUFFIX,wcdn.date
