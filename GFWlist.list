@@ -10,14 +10,28 @@
 # TOTAL: 14
 # DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 # IP-ASN,132203,no-resolve
+
+# Tech blog
 DOMAIN-SUFFIX,arloor.com
-DOMAIN-SUFFIX,drlgame.com
+
+# Media / video resources
 DOMAIN-SUFFIX,1lou.info
-DOMAIN-SUFFIX,ultramobile.com
-DOMAIN-SUFFIX,19940731.xyz
-DOMAIN-SUFFIX,immersivetranslate.com
-DOMAIN-SUFFIX,xn--ug8h.eu.org
 DOMAIN-SUFFIX,ainidj.com
+
+# Mobile carrier
+DOMAIN-SUFFIX,ultramobile.com
+
+# Developer services / RSS API
+DOMAIN-SUFFIX,19940731.xyz
+
+# Translation tools
+DOMAIN-SUFFIX,immersivetranslate.com
+
+# Unknown / inactive site
+DOMAIN-SUFFIX,drlgame.com
+
+# Emoji domain (🌎) / unknown service
+DOMAIN-SUFFIX,xn--ug8h.eu.org
 
 # HP printer
 DOMAIN-SUFFIX,hp.com
