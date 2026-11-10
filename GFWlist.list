@@ -1,11 +1,13 @@
 # NAME: gfwlist
 # AUTHOR: forpersonal
-# UPDATED:2025-03-24
+# UPDATED: 2026-11-10
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 7
+# DOMAIN-SUFFIX: 14
 # DOMAIN-KEYWORD: 0
+# IP-CIDR: 0
+# IP-CIDR6: 0
 # IP-ASN: 0
-# TOTAL: 7
+# TOTAL: 14
 # DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 # IP-ASN,132203,no-resolve
 DOMAIN-SUFFIX,arloor.com
@@ -17,43 +19,43 @@ DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,xn--ug8h.eu.org
 DOMAIN-SUFFIX,ainidj.com
 
-#HP printer
+# HP printer
 DOMAIN-SUFFIX,hp.com
 DOMAIN-SUFFIX,hpeprint.com
 
-#picture
+# Picture
 DOMAIN-SUFFIX,qy0.ru
 
-#meta muse
+# Meta AI
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,fbcdn.net
 
-#iOS chatgpt
-#Apple智能扩展
-#DOMAIN-SUFFIX, gateway.icloud.com
-#DOMAIN-SUFFIX,apple-relay.apple.com
-#私有云计算
-#DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-#DOMAIN-SUFFIX,apple-relay.cloudflare.com
-#DOMAIN-SUFFIX,cp4.cloudflare.com
-#Siri和听写请求
-#DOMAIN-SUFFIX,guzzoni.apple.com
-#搜索服务，包括Siri、聚焦、查询、Safari浏览器、新闻、信息和音乐
-#DOMAIN-SUFFIX,smoot.apple.com
-#其他
-#DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-#DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
-#DOMAIN-SUFFIX, apple-relay.akamaized.net
+# iOS ChatGPT
+# Apple 智能扩展
+# DOMAIN-SUFFIX,gateway.icloud.com
+# DOMAIN-SUFFIX,apple-relay.apple.com
+# 私有云计算
+# DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+# DOMAIN-SUFFIX,apple-relay.cloudflare.com
+# DOMAIN-SUFFIX,cp4.cloudflare.com
+# Siri 和听写请求
+# DOMAIN-SUFFIX,guzzoni.apple.com
+# 搜索服务，包括 Siri、聚焦、查询、Safari 浏览器、新闻、信息和音乐
+# DOMAIN-SUFFIX,smoot.apple.com
+# 其他
+# DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+# DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+# DOMAIN-SUFFIX,apple-relay.akamaized.net
 
-#iOS podcast
-#商店内容，如App、图书和音乐
-#DOMAIN-SUFFIX,itunes.apple.com
-#商店内容，如App、图书和音乐，以及来自网站和替代市场的App
-#DOMAIN-SUFFIX,mzstatic.com
-#播客 API
-#DOMAIN-SUFFIX,podcasts.apple.com
-#播客核心接口
-#DOMAIN,amp-api.podcasts.apple.com
-#播放进度同步
-#DOMAIN,bookkeeper.itunes.apple.com
+# iOS Podcast
+# 商店内容，如 App、图书和音乐
+# DOMAIN-SUFFIX,itunes.apple.com
+# 商店内容，如 App、图书和音乐，以及来自网站和替代市场的 App
+# DOMAIN-SUFFIX,mzstatic.com
+# 播客 API
+# DOMAIN-SUFFIX,podcasts.apple.com
+# 播客核心接口
+# DOMAIN,amp-api.podcasts.apple.com
+# 播放进度同步
+# DOMAIN,bookkeeper.itunes.apple.com

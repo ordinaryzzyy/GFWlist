@@ -1,0 +1,25 @@
+name: Validate rules
+
+on:
+  push:
+    paths:
+      - "*.list"
+      - "scripts/validate_rules.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "*.list"
+      - "scripts/validate_rules.py"
+      - ".github/workflows/validate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate rule files
+        run: python3 scripts/validate_rules.py
