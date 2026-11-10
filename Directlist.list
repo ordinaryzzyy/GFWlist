@@ -11,21 +11,21 @@ DOMAIN-SUFFIX,unknowntec.com
 #SGCC
 DOMAIN-SUFFIX,sgcc.com
 DOMAIN-SUFFIX,sgcc.com.cn
-DOMAIN-SUFFIX,esgcc.com.cn,DIRECT
+DOMAIN-SUFFIX,esgcc.com.cn
 
 #GOV
 DOMAIN-SUFFIX,12306.cn
-DOMAIN-SUFFIX,122.gov.cn,DIRECT
+DOMAIN-SUFFIX,122.gov.cn
 
 #MEDIA
-DOMAIN-SUFFIX,gtimg.cn,DIRECT
+DOMAIN-SUFFIX,gtimg.cn
 
 #BANK
-DOMAIN-SUFFIX,cmpassport.com,DIRECT
+DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,switch.cup.com.cn
 
 #CAR
-DOMAIN-SUFFIX,firefly.com.cn,DIRECT
+DOMAIN-SUFFIX,firefly.com.cn
 
 #DOWNLOAD
 DOMAIN-SUFFIX,wn01.download
