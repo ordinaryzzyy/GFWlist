@@ -8,8 +8,9 @@
 | --- | --- | --- |
 | `Directlist.list` | 需要直连的补充规则 | `https://raw.githubusercontent.com/ordinaryzzyy/GFWlist/main/Directlist.list` |
 | `GFWlist.list` | 需要代理的补充规则 | `https://raw.githubusercontent.com/ordinaryzzyy/GFWlist/main/GFWlist.list` |
+| `Rejectlist.list` | 需要拒绝的补充规则 | `https://raw.githubusercontent.com/ordinaryzzyy/GFWlist/main/Rejectlist.list` |
 
-这两份文件是针对现有规则集的增量补充，不是完整的分流方案。使用时应确保直连规则位于兜底代理规则之前。
+这些文件是针对现有规则集的增量补充，不是完整的分流方案。使用时应确保拒绝和直连规则位于兜底代理规则之前。
 
 ## Mihomo 示例
 
@@ -31,7 +32,16 @@ rule-providers:
     path: ./ruleset/personal-proxy.list
     interval: 86400
 
+  personal-reject:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ordinaryzzyy/GFWlist/main/Rejectlist.list
+    path: ./ruleset/personal-reject.list
+    interval: 86400
+
 rules:
+  - RULE-SET,personal-reject,REJECT
   - RULE-SET,personal-direct,DIRECT
   - RULE-SET,personal-proxy,PROXY
 ```

@@ -11,7 +11,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RULE_FILES = (ROOT / "Directlist.list", ROOT / "GFWlist.list")
+RULE_FILES = (
+    ROOT / "Directlist.list",
+    ROOT / "GFWlist.list",
+    ROOT / "Rejectlist.list",
+)
 RULE_TYPES = {
     "DOMAIN",
     "DOMAIN-SUFFIX",
@@ -113,10 +117,14 @@ def main() -> int:
         all_errors.extend(errors)
 
     if len(parsed) == len(RULE_FILES):
-        direct_targets = {value for _, value in parsed[RULE_FILES[0]]}
-        proxy_targets = {value for _, value in parsed[RULE_FILES[1]]}
-        for value in sorted(direct_targets & proxy_targets):
-            all_errors.append(f"直连和代理列表存在冲突: {value}")
+        for index, first_path in enumerate(RULE_FILES):
+            first_targets = {value for _, value in parsed[first_path]}
+            for second_path in RULE_FILES[index + 1 :]:
+                second_targets = {value for _, value in parsed[second_path]}
+                for value in sorted(first_targets & second_targets):
+                    all_errors.append(
+                        f"{first_path.name} 与 {second_path.name} 存在冲突: {value}"
+                    )
 
     if all_errors:
         print("规则校验失败：", file=sys.stderr)
