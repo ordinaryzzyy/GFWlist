@@ -1,13 +1,13 @@
 # NAME: directlist
 # AUTHOR: ordinaryzzyy
-# UPDATED: 2026-11-13
+# UPDATED: 2026-11-14
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 10
+# DOMAIN-SUFFIX: 11
 # DOMAIN-KEYWORD: 0
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # IP-ASN: 0
-# TOTAL: 10
+# TOTAL: 11
 
 # UNKNOWN
 DOMAIN-SUFFIX,kaogujia.com
@@ -21,6 +21,9 @@ DOMAIN-SUFFIX,unknowntec.com
 
 # SGCC
 DOMAIN-SUFFIX,sgcc.com
+
+# NIO
+DOMAIN-SUFFIX,nio.com
 
 # Bank
 DOMAIN-SUFFIX,cmpassport.com
