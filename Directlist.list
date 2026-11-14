@@ -2,12 +2,12 @@
 # AUTHOR: ordinaryzzyy
 # UPDATED: 2026-11-14
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 12
+# DOMAIN-SUFFIX: 13
 # DOMAIN-KEYWORD: 0
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # IP-ASN: 0
-# TOTAL: 12
+# TOTAL: 13
 
 # UNKNOWN
 DOMAIN-SUFFIX,kaogujia.com
@@ -27,6 +27,9 @@ DOMAIN-SUFFIX,nio.com
 
 # ByteDance - Qishui Music
 DOMAIN-SUFFIX,qishui.com
+
+# DiDi
+DOMAIN-SUFFIX,kuaidadi.com
 
 # Bank
 DOMAIN-SUFFIX,cmpassport.com
